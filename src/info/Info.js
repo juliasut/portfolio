@@ -17,7 +17,7 @@ the site.
  */
 
 export const info = {
-  firstName: 'Iuliia',
+  firstName: 'Test-Iuliia',
   lastName: 'Sutygina',
   initials: 'is',
   position: 'a Full Stack Developer',
