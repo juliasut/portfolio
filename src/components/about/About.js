@@ -15,14 +15,13 @@ export default function About() {
             {firstName}
             {info.lastName.toLowerCase()} $
           </span>{' '}
-          cat about
-          <a href="https://resume.creddle.io/resume/83flah7esyq">{firstName}</a>
+          cat about{firstName}
         </p>
         <p>
           <span style={{ color: info.baseColor }}>
             about{firstName} <span className={Style.green}>(main)</span> ${' '}
           </span>
-          {info.bio}
+          {info.bio}<a href="https://resume.creddle.io/resume/83flah7esyq">here</a>.
         </p>
       </>
     );

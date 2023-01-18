@@ -27,11 +27,6 @@ const links = [
     to: '/portfolio',
     active: 'portfolio',
   },
-  {
-    name: 'Resume',
-    to: '/resume',
-    active: 'resume',
-  },
 ];
 
 export default function Navbar({ darkMode, handleClick }) {
@@ -70,6 +65,9 @@ export default function Navbar({ darkMode, handleClick }) {
             </Link>
           </Box>
         ))}
+        <li>
+        <a href="https://resume.creddle.io/resume/83flah7esyq" >résumé</a>
+        </li>
         <li>
           <Toggler darkMode={darkMode} handleClick={handleClick} />
         </li>

@@ -67,7 +67,7 @@ export const info = {
     },
   ],
 
-  bio: "Hello, I'm Iuliia. Currently studying web development in Masterschool. Email me about job opportunities!",
+  bio: "Hello, I'm Iuliia. Currently studying web development in Masterschool. You'll find my cv ",
   skills: {
     proficientWith: [
       'javascript',
