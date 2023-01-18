@@ -20,7 +20,6 @@
 
 ![screenshot of perfect lighthouse score](https://user-images.githubusercontent.com/18350557/179609620-847374a6-23e6-4432-b7a8-181d7d9bf026.png)
 
-
 ---
 
 ## getting started
@@ -108,11 +107,11 @@ Otherwise, use [Emojipedia](https://emojipedia.org/) to find and copy-paste what
 
 For the 'socials' section, be sure to replace the links with your own social profile links.
 
-For the 'portfolio' section, update the titles to whatever you want. The `live` link should be a link to the **live demo** of your project. The `source` link should be a link to the **repository where the *code* of the project is hosted**,
+For the 'portfolio' section, update the titles to whatever you want. The `live` link should be a link to the **live demo** of your project. The `source` link should be a link to the **repository where the _code_ of the project is hosted**,
 such as GitHub.
 
 Note: If you have more than 5 projects, you will need to add more objects to the portfolio array. Just copy from the
-opening bracket to the comma of *one* object and continue pasting as many as you need. If you need help with this, feel
+opening bracket to the comma of _one_ object and continue pasting as many as you need. If you need help with this, feel
 free to reach out.
 
 And that's it! If you save the file and check your live server, you should see that the information has been updated and
@@ -192,3 +191,8 @@ please don't hesitate to reach out -- I will always happily accept constructive 
 [Hyun Woo](https://needon.kr/)
 
 [Dirk Kotze](https://dirkrkotze.com/)
+
+<p>
+              template created with &hearts; by{' '}
+              <a href='https://paytonpierce.dev'>Payton Pierce</a>
+            </p>
