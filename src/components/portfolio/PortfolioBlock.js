@@ -1,9 +1,8 @@
 import React from 'react';
 import IconLink from './IconLink';
-import { Box, Typography, Container } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 function PortfolioBlock(props) {
-  // eslint-disable-next-line no-unused-vars
   const { image, live, source, title, description } = props;
   return (
     <Box
@@ -44,12 +43,14 @@ function PortfolioBlock(props) {
         fontSize={'1.2rem'}
         py={'1rem'}
       >
-        {/* <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-          <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'} />
-        </Box> */}
         <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
           <IconLink link={source} title={'Source Code'} icon={'fa fa-code'} />
         </Box>
+        {live && (
+          <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
+            <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'} />
+          </Box>
+        )}
       </Box>
     </Box>
   );
