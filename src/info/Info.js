@@ -48,27 +48,27 @@ export const info = {
   socials: [
     {
       link: 'https://github.com/juliasut',
-      icon: 'fa fa-github',
+      icon: 'fa-brands fa-github',
       label: 'github',
     },
     {
       link: 'https://www.linkedin.com/in/juliasut/',
-      icon: 'fa fa-linkedin',
+      icon: 'fa-brands fa-linkedin',
       label: 'linkedin',
     },
     {
       link: 'https://twitter.com/ISutygina',
-      icon: 'fa fa-twitter',
+      icon: 'fa-brands fa-twitter',
       label: 'twitter',
     },
     {
       link: 'https://medium.com/@juliasutygina',
-      icon: 'fa fa-medium',
+      icon: 'fa-brands fa-medium',
       label: 'medium',
     },
   ],
 
-  bio: "Hello, I'm Iuliia. Currently studying web development in Masterschool. You'll find my cv ",
+  bio: "Hello, I'm Iuliia. Currently studying web development in Masterschool. See my cv ",
   skills: {
     proficientWith: [
       'javascript',
@@ -80,11 +80,11 @@ export const info = {
       'html5',
       'css',
     ],
-    exposedTo: ['typescript', 'ruby'],
+    exposedTo: ['typescript', 'ruby', 'python'],
   },
   hobbies: [
     {
-      label: 'learning',
+      label: 'beta-testing Coursera courses',
       emoji: '✨',
     },
     {
@@ -105,7 +105,7 @@ export const info = {
       title: 'Hotel California',
       description:
         'Connects event planners with the hotel banquet crew. Next.js, Prisma ORM, Postgres',
-      live: 'https://github.com/juliasut/hotel-california',
+      live: '',
       source: 'https://github.com/juliasut/hotel-california',
       image: mock5,
     },
@@ -121,7 +121,7 @@ export const info = {
       title: 'Interview Scheduler',
       description:
         'A single-page app to schedule interview appointments. React, Storybook, Jest, Cypress',
-      live: 'https://github.com/juliasut/scheduler',
+      live: '',
       source: 'https://github.com/juliasut/scheduler',
       image: mock6,
     },
@@ -129,7 +129,7 @@ export const info = {
       title: 'ICTapp (Institute for Career Transitions)',
       description:
         'Mini anti-ageism hackathon winner app written in React Native',
-      live: 'https://github.com/juliasut/ICTapp.git',
+      live: '',
       source: 'https://github.com/juliasut/ICTapp.git',
       image: mock3,
     },
@@ -145,7 +145,7 @@ export const info = {
       title: 'NASA-Project',
       description:
         'Back-end project for pre-packaged react front end. Allows schedule launches to habitable planets. Node, Jest, SuperTest',
-      live: 'https://github.com/juliasut/NASA-Project', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      live: '', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: 'https://github.com/juliasut/NASA-Project', // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
@@ -153,7 +153,7 @@ export const info = {
       title: 'Retired Not Tired',
       description:
         "Masterschool's group front-end project. Helps retired people stay active and in touch. React, Firebase, MUI",
-      live: 'https://github.com/juliasut/Retired-Not-Tired.git',
+      live: '',
       source: 'https://github.com/juliasut/Retired-Not-Tired.git',
       image: mock2,
     },
