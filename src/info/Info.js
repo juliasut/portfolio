@@ -20,7 +20,6 @@ the site.
 export const info = {
   firstName: 'Iuliia',
   lastName: 'Sutygina',
-  initials: 'is',
   position: 'a Full Stack Developer',
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
@@ -28,15 +27,15 @@ export const info = {
   miniBio: [
     {
       emoji: '💻',
-      text: 'currently studying in Masterschool',
-    },
-    {
-      emoji: '🌎',
-      text: 'based in Alberta, Canada',
+      text: 'Masterschool graduate | Web Development/Engineering',
     },
     {
       emoji: '🎓',
-      text: 'Lighthouse Labs Alumn',
+      text: 'Lighthouse Labs Web Development Program Alumn',
+    },
+    {
+      emoji: '🌎',
+      text: 'Based in Alberta, Canada',
     },
     {
       emoji: '📧',
@@ -62,25 +61,34 @@ export const info = {
       label: 'twitter',
     },
     {
+      link: 'https://codepen.io/juls_sut',
+      icon: 'fa-brands fa-codepen',
+      label: 'codepen',
+    },
+    {
       link: 'https://medium.com/@juliasutygina',
       icon: 'fa-brands fa-medium',
       label: 'medium',
     },
   ],
 
-  bio: "Hello, I'm Iuliia. Currently studying web development in Masterschool. See my cv ",
+  bio: "Hello, I'm Iuliia, a dedicated web developer with a customer service background, known for my exceptional communication and organizational skills. I enjoy contributing to innovative solutions that can positively impact both the organization and the people it serves. See my cv ",
   skills: {
     proficientWith: [
       'javascript',
       'node.js',
+      'express.js',
       'react',
       'git',
       'mui',
       'sql-nosql-dbs',
       'html5',
       'css',
+      'jest',
+      'ruby',
+      'python',
+      'typescript',
     ],
-    exposedTo: ['typescript', 'ruby', 'python'],
   },
   hobbies: [
     {
@@ -112,8 +120,8 @@ export const info = {
     {
       title: 'DALL-E 2.0',
       description:
-        'Full Stack MERN AI Image Generation App. Node.js, Express.js, MongoDB, React.js, Tailwind, OpenAI\'s DALL-E model, Cloudinary',
-      live: 'https://dall-e-2-0-silk.vercel.app/',
+        "Full Stack MERN AI Image Generation App. Node.js, Express.js, MongoDB, React.js, Tailwind, OpenAI's DALL-E model, Cloudinary",
+      live: '',
       source: 'https://github.com/juliasut/DALL-E-2.0.git',
       image: mock7,
     },

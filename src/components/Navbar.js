@@ -17,12 +17,6 @@ const links = [
     active: 'about',
   },
   {
-    name: info.initials,
-    type: 'initials',
-    to: '/',
-    active: 'home',
-  },
-  {
     name: 'Portfolio',
     to: '/portfolio',
     active: 'portfolio',
@@ -45,8 +39,9 @@ export default function Navbar({ darkMode, handleClick }) {
         justifyContent={'center'}
         alignItems={'center'}
         gap={{ xs: '2rem', md: '8rem' }}
-        textTransform={'lowercase'}
+        textTransform={'uppercase'}
         fontSize={'1rem'}
+        fontWeight={'700'}
       >
         {links.map((link, index) => (
           <Box
@@ -60,13 +55,12 @@ export default function Navbar({ darkMode, handleClick }) {
               onClick={() => setActive(link.active)}
               className={Style.link}
             >
-              {!link.type && <p style={{ padding: '0.5rem 0' }}>{link.name}</p>}
-              {link.type && <h1>{link.name}</h1>}
+              <p style={{ padding: '0.8rem 0' }}>{link.name}</p>
             </Link>
           </Box>
         ))}
         <li>
-        <a href="https://resume.creddle.io/resume/83flah7esyq" >résumé</a>
+          <a href="https://resume.creddle.io/resume/83flah7esyq">résumé</a>
         </li>
         <li>
           <Toggler darkMode={darkMode} handleClick={handleClick} />

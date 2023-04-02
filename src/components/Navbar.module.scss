@@ -11,13 +11,8 @@ nav {
 
 li {
   transition: $transition;
-
+  
   &:hover {
-    transform: translateY(-3px);
     transition: $transition;
   }
-}
-
-.link:hover {
-  color: unset;
 }
