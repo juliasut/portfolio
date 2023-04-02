@@ -12,16 +12,16 @@ export default function About() {
       <>
         <p>
           <span style={{ color: info.baseColor }}>
-            {firstName}
-            {info.lastName.toLowerCase()} $
+            {firstName}_{info.lastName.toLowerCase()} $
           </span>{' '}
-          cat about{firstName}
+          cat about_{firstName}
         </p>
         <p>
           <span style={{ color: info.baseColor }}>
-            about{firstName} <span className={Style.green}>(main)</span> ${' '}
+            about_{firstName} <span className={Style.green}>(main)</span> ${' '}
           </span>
-          {info.bio}<a href="https://resume.creddle.io/resume/83flah7esyq">here</a>.
+          {info.bio}
+          <a href="https://resume.creddle.io/resume/83flah7esyq">here</a>.
         </p>
       </>
     );
@@ -32,8 +32,7 @@ export default function About() {
       <>
         <p>
           <span style={{ color: info.baseColor }}>
-            {firstName}
-            {info.lastName.toLowerCase()} $
+            {firstName}_{info.lastName.toLowerCase()} $
           </span>{' '}
           cd skills/tools
         </p>
@@ -43,16 +42,9 @@ export default function About() {
           </span>{' '}
           ls
         </p>
-        <p style={{ color: info.baseColor }}> Proficient With</p>
         <ul className={Style.skills}>
-          {info.skills.proficientWith.map((proficiency, index) => (
+          {info.skills.proficientWith?.map((proficiency, index) => (
             <li key={index}>{proficiency}</li>
-          ))}
-        </ul>
-        <p style={{ color: info.baseColor }}> Exposed To</p>
-        <ul className={Style.skills}>
-          {info.skills.exposedTo.map((skill, index) => (
-            <li key={index}>{skill}</li>
           ))}
         </ul>
       </>
